@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Whitney, "Helvetica Neue ", Helvetica, Arial, sans-serif;
+}
 img{
  width: 100%; 
 }
@@ -44,8 +48,7 @@ header{
   margin: 0 auto;
   width: 700px;
   height: 250px;
-  border: 3px dashed black;
-  background-color: violet;
+ 
   color: white;
 }
 .second-container p{
@@ -53,10 +56,11 @@ header{
   
 }
 .button-style{
-  border-radius: 35%;
+  border-radius: 30px;
   background-color: white;
-  height: 40px;
-  
+  padding: 15px 25px ;
+  border: none;
+  margin-top: 40px;
 
 }
 
@@ -66,12 +70,14 @@ header{
 }
 
 .third-container-left {
+  background-image: url(../img/item1.svg);
+  background-size:cover ;
   width: 60%;
   text-align: center;
   margin: 0 auto;
   height: 250px;
-  border: 2px dashed black;
-  background-color: rgb(58, 149, 235);
+  
+  
 }
 
 .third-container-right {
@@ -79,8 +85,7 @@ header{
   text-align: center;
   margin: 0 auto;
   height: 250px;
-  border: 2px dashed black;
-  background-color: pink;
+  
 }
 
 .principal-container-four {

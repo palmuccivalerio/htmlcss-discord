@@ -3,8 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+img{
+ width: 100%; 
+}
 header{
-  background-color: aquamarine;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
 }
 .container {
   width: 600px;
@@ -31,7 +35,7 @@ header{
 
 
 .principal-container-second {
-  background-color: rgb(0, 0, 124);
+
   padding: 40px;
 }
 
@@ -42,6 +46,18 @@ header{
   height: 250px;
   border: 3px dashed black;
   background-color: violet;
+  color: white;
+}
+.second-container p{
+  font-size: 20px
+  
+}
+.button-style{
+  border-radius: 35%;
+  background-color: white;
+  height: 40px;
+  
+
 }
 
 .principal-container-third {

@@ -95,25 +95,53 @@ header{
 }
 
 .four-container-left {
+  
   width: 60%;
   text-align: center;
   margin: 0 auto;
   height: 250px;
-  border: 2px dashed black;
-  background-color: pink;
+ 
 }
 
 .four-container-right {
+  background-image: url(../img/item2.svg);
+  background-size: cover;
   width: 40%;
   text-align: center;
   margin: 0 auto;
   height: 250px;
-  border: 2px dashed black;
-  background-color: rgb(58, 149, 235);
+  
 }
 
-.principal-container-five {
+
+.principal-container-prefive {
   display: flex;
+  padding: 40px;
+}
+
+.third-container-prefivel {
+  background-image: url(../img/item3.svg);
+  background-size:cover ;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  height: 250px;
+  
+  
+}
+
+.third-container-prefiver {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  height: 250px;
+  
+}
+
+
+
+.principal-container-five {
+  text-align: center;
   padding: 40px;
   background-color: lightgrey;
 }
@@ -123,8 +151,8 @@ header{
   text-align: center;
   margin: 0 auto;
   height: 400px;
-  border: 2px dashed black;
-  background-color: green;
+  background-image: url(../img/item4-big.svg);
+  background-size: cover;
 }
 .principal-container-six {
     display: flex;

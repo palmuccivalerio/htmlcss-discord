@@ -154,10 +154,18 @@ header{
   background-image: url(../img/item4-big.svg);
   background-size: cover;
 }
+
+.five-section{
+  justify-content: center;
+  text-align: center;
+  margin-top: 380px;
+}
+
 .principal-container-six {
     display: flex;
     padding: 40px;
     background-color:rgb(57, 57, 57);
+    
   }
   
   .six-container {
@@ -166,9 +174,16 @@ header{
     margin: 0 auto;
     height: 300px;
     border: 2px dashed black;
-    background-color: rgb(3, 130, 193);
+    color:blueviolet
+    
+    
+    ;
   }
-  .one{
-    background-color: red;
-    flex-grow: 2;
+
+
+
+  .six-container ul{
+    list-style: none;
+    color: white;
   }
+

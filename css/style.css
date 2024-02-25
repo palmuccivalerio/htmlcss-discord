@@ -5,13 +5,13 @@
 }
 
 body {
-  font-family: Whitney, "Helvetica Neue ", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-img{
- width: 100%; 
+img {
+  width: 100%;
 }
-header{
-  background-image: url('../img/jumbo.png');
+header {
+  background-image: url("../img/jumbo.png");
   background-size: cover;
 }
 .container {
@@ -20,26 +20,43 @@ header{
   display: flex;
 }
 
-
-.header-container {
+.header-container-one {
   height: 20px;
-  background-color: yellow;
-  border: 5px solid black;
-  border: dashed;
+  background-image: url(../img/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: left;
+  width: 25%;
+}
+
+.header-container-two {
+  height: 20px;
   text-align: center;
-  width: 60%;
-  
-  
+  width: 50%;
 }
 
-.header-container ul{
-  display: flex;
-  padding: 2px
+ul#menu-list li {
+  display: inline;
+  padding: 0 4px;
+  list-style-type: none;
+  color: white;
+  font-size: small;
 }
 
+.header-container-three {
+  height: 20px;
+  text-align: right;
+  width: 25%;
+}
+
+.button-style-header {
+  border-radius: 30px;
+  background-color: white;
+  padding: 8px 15px;
+  border: none;
+}
 
 .principal-container-second {
-
   padding: 40px;
 }
 
@@ -48,20 +65,18 @@ header{
   margin: 0 auto;
   width: 700px;
   height: 250px;
- 
+
   color: white;
 }
-.second-container p{
-  font-size: 20px
-  
+.second-container p {
+  font-size: 20px;
 }
-.button-style{
+.button-style {
   border-radius: 30px;
   background-color: white;
-  padding: 15px 25px ;
+  padding: 15px 25px;
   border: none;
   margin-top: 40px;
-
 }
 
 .principal-container-third {
@@ -71,13 +86,11 @@ header{
 
 .third-container-left {
   background-image: url(../img/item1.svg);
-  background-size:cover ;
+  background-size: cover;
   width: 60%;
   text-align: center;
   margin: 0 auto;
   height: 250px;
-  
-  
 }
 
 .third-container-right {
@@ -85,7 +98,6 @@ header{
   text-align: center;
   margin: 0 auto;
   height: 250px;
-  
 }
 
 .principal-container-four {
@@ -95,24 +107,20 @@ header{
 }
 
 .four-container-left {
-  
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-  height: 250px;
- 
-}
-
-.four-container-right {
   background-image: url(../img/item2.svg);
   background-size: cover;
   width: 40%;
   text-align: center;
   margin: 0 auto;
   height: 250px;
-  
 }
 
+.four-container-right {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  height: 250px;
+}
 
 .principal-container-prefive {
   display: flex;
@@ -121,13 +129,11 @@ header{
 
 .third-container-prefivel {
   background-image: url(../img/item3.svg);
-  background-size:cover ;
+  background-size: cover;
   width: 60%;
   text-align: center;
   margin: 0 auto;
   height: 250px;
-  
-  
 }
 
 .third-container-prefiver {
@@ -135,10 +141,7 @@ header{
   text-align: center;
   margin: 0 auto;
   height: 250px;
-  
 }
-
-
 
 .principal-container-five {
   text-align: center;
@@ -155,56 +158,46 @@ header{
   background-size: cover;
 }
 
-.five-section{
+.five-section {
   justify-content: center;
   text-align: center;
   margin-top: 380px;
 }
 
 .principal-container-six {
-    display: flex;
-    padding: 40px;
-    background-color:rgb(57, 57, 57);
-    
-  }
-  
-  .six-container {
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    height: 300px;
-    color:blueviolet
-    
-    
-    ;
-  }
+  display: flex;
+  padding: 40px;
+  background-color: rgb(57, 57, 57);
+}
 
+.six-container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  height: 300px;
+  color: blueviolet;
+}
 
-
-  .h-title{
+.h-title {
   font-size: medium;
   text-align: left;
-  
-  
-  
- }
+}
 
-  .list-type{
-    text-align: left;
-    font-size:xx-small ;
-    padding: 10px;
-    margin-bottom: 10px;
-    list-style: none;
-    color: white;
-  }
-.title{
+.list-type {
+  text-align: left;
+  font-size: xx-small;
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  color: white;
+  line-height: 20px;
+}
+.list-type img {
+  width: 20px;
+  height: 20px;
+}
+.title {
   text-align: left;
   color: blueviolet;
   font-size: xx-small;
-
-
 }
-
-
-
-

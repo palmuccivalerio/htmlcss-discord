@@ -173,7 +173,6 @@ header{
     text-align: center;
     margin: 0 auto;
     height: 300px;
-    border: 2px dashed black;
     color:blueviolet
     
     
@@ -182,8 +181,30 @@ header{
 
 
 
-  .six-container ul{
+  .h-title{
+  font-size: medium;
+  text-align: left;
+  
+  
+  
+ }
+
+  .list-type{
+    text-align: left;
+    font-size:xx-small ;
+    padding: 10px;
+    margin-bottom: 10px;
     list-style: none;
     color: white;
   }
+.title{
+  text-align: left;
+  color: blueviolet;
+  font-size: xx-small;
+
+
+}
+
+
+
 
